@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Gavin Han - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;900&family=Archivo+Black&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">gavin han</a>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#graphic-design">Graphic Design</a></li>
+                <li><a href="#video-editing">Video Editing</a></li>
+                <li><a href="#web-projects">Web Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-main">
+            <h1 class="hero-title">gavin han</h1>
+            <div class="hero-circle">
+                <div class="hero-circle-content">
+                    <p class="hero-subtitle">creative designer & developer</p>
+                    <p class="hero-details">graphic design • video editing • web development</p>
+                </div>
+            </div>
+            <a href="#graphic-design" class="cta-button">view work</a>
+        </div>
+        <div class="scroll-indicator">
+            <span>scroll</span>
+            <div class="arrow"></div>
+        </div>
+    </section>
+
+    <section id="graphic-design" class="portfolio-section">
+        <div class="container">
+            <h2 class="section-title" data-text="graphic design">graphic design</h2>
+            <p class="section-description">a collection of my graphic design work showcasing creativity and visual communication.</p>
+            <div class="portfolio-grid">
+                <a href="project-bauhaus.html" class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="portfolio/bauhaus.pdf.png" alt="Bauhaus Design" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="placeholder-image" style="display:none;">
+                            <span>bauhaus</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 data-text="bauhaus">bauhaus</h3>
+                        <p>geometric design inspired by bauhaus principles</p>
+                    </div>
+                </a>
+                <a href="project-metalica.html" class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="portfolio/metalica.pdf.png" alt="Metallica Design" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="placeholder-image metalica-placeholder" style="display:none;">
+                            <span>metallica</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 data-text="metallica">metallica</h3>
+                        <p>minimalist black & white poster design</p>
+                    </div>
+                </a>
+                <a href="project-fff.html" class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="portfolio/FFF.pdf.png" alt="FFF Design" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="placeholder-image fff-placeholder" style="display:none;">
+                            <span>fantasy film festival</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 data-text="fantasy film festival">fantasy film festival</h3>
+                        <p>comic themed creative design project</p>
+                    </div>
+                </a>
+                <a href="project-dada.html" class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="portfolio/dada poster.png" alt="Dada Poster" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="placeholder-image" style="display:none;">
+                            <span>dada poster</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 data-text="dada poster">dada poster</h3>
+                        <p>experimental dadaism poster highlighting real world issues</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="video-editing" class="portfolio-section alt-bg">
+        <div class="container">
+            <h2 class="section-title" data-text="video editing">video editing</h2>
+            <p class="section-description">showcasing my video editing skills and creative storytelling through motion.</p>
+            <div class="portfolio-grid">
+                <a href="https://www.youtube.com/watch?v=4BAErxJgau8" target="_blank" rel="noopener noreferrer" class="portfolio-item video-item">
+                    <div class="portfolio-image">
+                        <img src="silver experience thumbnail.jpg" alt="Silver Experience" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="placeholder-image video-placeholder" style="display:none;">
+                            <span>▶ silver experience</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 data-text="the silver experience">the silver experience</h3>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=V0cdMeqft1E" target="_blank" rel="noopener noreferrer" class="portfolio-item video-item">
+                    <div class="portfolio-image">
+                        <img src="terrible gameplay thumbnail.png" alt="Terrible Gameplay" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="placeholder-image video-placeholder" style="display:none;">
+                            <span>▶ terrible gameplay</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 data-text="terrible gameplay">terrible gameplay</h3>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=P9A0FHQMI1M" target="_blank" rel="noopener noreferrer" class="portfolio-item video-item">
+                    <div class="portfolio-image">
+                        <img src="treasure thumbnail.png" alt="Treasure" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="placeholder-image video-placeholder" style="display:none;">
+                            <span>▶ treasure</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 data-text="treasure valorant edit">treasure valorant edit</h3>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/@gavinnhn32" target="_blank" rel="noopener noreferrer" class="portfolio-item video-item">
+                    <div class="portfolio-image">
+                        <img src="youtube channel pfp.webp" alt="YouTube Channel" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="placeholder-image video-placeholder" style="display:none;">
+                            <span>▶ see more</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 data-text="see more on my silly youtube channel">see more on my silly youtube channel</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="web-projects" class="portfolio-section">
+        <div class="container">
+            <h2 class="section-title" data-text="web projects">web projects</h2>
+            <p class="section-description">previous website projects demonstrating web development skills.</p>
+            <div class="portfolio-grid">
+                <a href="https://landing-page-rise-well.vercel.app/" target="_blank" rel="noopener noreferrer" class="portfolio-item web-item">
+                    <div class="portfolio-image">
+                        <img src="risewell.png" alt="Risewell Website" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="placeholder-image web-placeholder" style="display:none;">
+                            <span>🌐 website project</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 data-text="risewell | venture capital simulator">risewell | venture capital simulator</h3>
+                        <p>landing page highlighting risewell's product, core values, team biography, and collecting early customer feedback</p>
+                        <span class="project-link">view project →</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title" data-text="get in touch">get in touch</h2>
+            <p class="section-description">let's work!</p>
+            <div class="contact-info">
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/hhan81" target="_blank" rel="noopener noreferrer" class="social-link">linkedin</a>
+                    <a href="#" class="social-link email-link">email me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Gavin Han. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Email Popup -->
+    <div id="email-popup" class="email-popup">
+        <div class="email-popup-content">
+            <span class="email-popup-close">&times;</span>
+            <p class="email-popup-label">email address:</p>
+            <p class="email-popup-address" id="email-address">gavin040801@gmail.com</p>
+            <button class="email-copy-btn" id="copy-email-btn">copy email</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

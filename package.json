@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && npm run copy-assets",
+    "copy-assets": "cp script.js dist/ && cp -r portfolio dist/ && cp 'silver experience thumbnail.jpg' 'terrible gameplay thumbnail.png' 'treasure thumbnail.png' 'youtube channel pfp.webp' risewell.png dist/ 2>/dev/null || true",
     "preview": "vite preview"
   },
   "devDependencies": {

@@ -656,9 +656,9 @@ body {
 }
 
 .social-links {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    flex-wrap: wrap;
 }
 
 .social-link {
@@ -671,6 +671,7 @@ body {
     font-size: 0.9rem;
     letter-spacing: 1px;
     text-transform: lowercase;
+    text-align: center;
 }
 
 .social-link:hover {
@@ -1171,8 +1172,7 @@ footer p {
     }
 
     .social-links {
-        flex-direction: column;
-        align-items: flex-start;
+        grid-template-columns: 1fr;
     }
 
     .container {
